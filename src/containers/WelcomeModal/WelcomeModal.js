@@ -20,9 +20,9 @@ export class WelcomeModal extends Component {
     this.setState({ [e.target.name]: e.target.value, error: '' });
   }
 
-  validateInput = () => {
-    
-  }
+  // validateInput = () => {
+  //
+  // }
 
   handleSubmit = e => {
     const { firstName, lastName, feeling } = this.state;
