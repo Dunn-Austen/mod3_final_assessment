@@ -1,9 +1,9 @@
-export const messages = (state='', action) => {
+export const messages = (state=[], action) => {
   switch (action.type) {
     case 'ADD_MESSAGE':
-      return action.msg
+      return [...state, action.msg];
     case 'CLEAR_MESSAGES':
-      return action.msg
+      return []
     default:
       return state;
   }
