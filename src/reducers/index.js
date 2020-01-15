@@ -6,7 +6,7 @@ import { messages } from './messages';
 const rootReducer = combineReducers({
   user,
   errorMsg,
-  msg
+  messages
 });
 
 export default rootReducer;
