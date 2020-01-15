@@ -11,3 +11,13 @@ export const hasErrored = errorMsg => ({
   type: 'HAS_ERRORED',
   errorMsg
 })
+
+export const addMessage = msg => ({
+  type: 'ADD_MESSAGE',
+  msg
+})
+
+export const clearMessage = msg => ({
+  type: 'CLEAR_MESSAGE',
+  msg
+})
