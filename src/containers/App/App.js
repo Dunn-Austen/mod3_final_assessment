@@ -44,6 +44,6 @@ export const mapStateToProps = ({ user }) => ({
 });
 
 export const mapDispatchToProps = dispatch =>
-bindActionCreators({ removeUser, hasErrored, addMessage, clearMessage }, dispatch);
+bindActionCreators({ removeUser, hasErrored, addMessage, clearMessages }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
