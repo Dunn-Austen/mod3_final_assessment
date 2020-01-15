@@ -32,7 +32,7 @@ export class WelcomeModal extends Component {
       });
       this.connectToChatBot();
     } else {
-      this.setState({error: 'Dr Watson is currently down. Please try again later.'})
+      this.setState({error: 'Make sure that you have filled everything out.'})
     }
   }
 
